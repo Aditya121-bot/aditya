@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    <h1>Love Calculator</h1>
+        <div class="container">
+        <div id="inp">
+        <form action="action.php">
+            <input id="you" placeholder="Your Name" required> <b>+</b>
+            <input id="yourPartner" placeholder="Partner Name" required>
+               <button  id="btn" onclick="lovepercent()">Check  </button>
+                <button type="reset" id="reset">Reset</button>
+        
+            </form>
+               
+        </div>
+       
+            <input id="result" disabled>
+            <div id="godbless">
+                <p>Godbless Your Relationship</p>
+            </div>
+                </div>
+                
+                <footer>
+            <div class="ft1">  
+              </div>
+                <p id="copy">
+                  copyright © - All Right Reserved                     
+<br /> Love Calculator
+<br />By- Aditya Programmer
+                </p>
+     
+                    
+                </footer>
+    </body>
+</html>
